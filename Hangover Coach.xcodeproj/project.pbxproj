@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AAC1AEE286200360D60 /* AppDelegate.swift */; };
-		A27C0AAF1AEE286200360D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AAE1AEE286200360D60 /* ViewController.swift */; };
 		A27C0AB21AEE286200360D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB01AEE286200360D60 /* Main.storyboard */; };
 		A27C0AB41AEE286200360D60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB31AEE286200360D60 /* Images.xcassets */; };
 		A27C0AB71AEE286200360D60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB51AEE286200360D60 /* LaunchScreen.xib */; };
 		A27C0AC31AEE286200360D60 /* Hangover_CoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */; };
+		A27C0ACE1AEE295D00360D60 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		A27C0AA71AEE286200360D60 /* Hangover Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangover Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27C0AAB1AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27C0AAC1AEE286200360D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A27C0AAE1AEE286200360D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A27C0AB11AEE286200360D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A27C0AB31AEE286200360D60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A27C0AB61AEE286200360D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A27C0ABC1AEE286200360D60 /* Hangover CoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangover CoachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27C0AC11AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangover_CoachTests.swift; sourceTree = "<group>"; };
+		A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomsViewController.swift; path = Views/SymptomsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				A27C0AAC1AEE286200360D60 /* AppDelegate.swift */,
-				A27C0AAE1AEE286200360D60 /* ViewController.swift */,
 				A27C0AB01AEE286200360D60 /* Main.storyboard */,
 				A27C0AB31AEE286200360D60 /* Images.xcassets */,
 				A27C0AB51AEE286200360D60 /* LaunchScreen.xib */,
+				A27C0ACC1AEE293F00360D60 /* Views */,
 				A27C0AAA1AEE286200360D60 /* Supporting Files */,
 			);
 			path = "Hangover Coach";
@@ -110,6 +110,14 @@
 				A27C0AC11AEE286200360D60 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27C0ACC1AEE293F00360D60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27C0AAF1AEE286200360D60 /* ViewController.swift in Sources */,
+				A27C0ACE1AEE295D00360D60 /* SymptomsViewController.swift in Sources */,
 				A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				A27C0AC81AEE286200360D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27C0AC91AEE286200360D60 /* Build configuration list for PBXNativeTarget "Hangover CoachTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				A27C0ACB1AEE286200360D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
