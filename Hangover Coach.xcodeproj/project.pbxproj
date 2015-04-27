@@ -13,6 +13,7 @@
 		A27C0AB71AEE286200360D60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB51AEE286200360D60 /* LaunchScreen.xib */; };
 		A27C0AC31AEE286200360D60 /* Hangover_CoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */; };
 		A27C0ACE1AEE295D00360D60 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */; };
+		A27C0AD21AEE2C4600360D60 /* ScrollPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AD11AEE2C4600360D60 /* ScrollPager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A27C0AC11AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangover_CoachTests.swift; sourceTree = "<group>"; };
 		A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomsViewController.swift; path = Views/SymptomsViewController.swift; sourceTree = "<group>"; };
+		A27C0AD11AEE2C4600360D60 /* ScrollPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				A27C0AB31AEE286200360D60 /* Images.xcassets */,
 				A27C0AB51AEE286200360D60 /* LaunchScreen.xib */,
 				A27C0ACC1AEE293F00360D60 /* Views */,
+				A27C0ACF1AEE2C4600360D60 /* Vendors */,
 				A27C0AAA1AEE286200360D60 /* Supporting Files */,
 			);
 			path = "Hangover Coach";
@@ -118,6 +121,22 @@
 				A27C0ACD1AEE295D00360D60 /* SymptomsViewController.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		A27C0ACF1AEE2C4600360D60 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AD01AEE2C4600360D60 /* ScrollPager */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		A27C0AD01AEE2C4600360D60 /* ScrollPager */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AD11AEE2C4600360D60 /* ScrollPager.swift */,
+			);
+			path = ScrollPager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27C0AD21AEE2C4600360D60 /* ScrollPager.swift in Sources */,
 				A27C0ACE1AEE295D00360D60 /* SymptomsViewController.swift in Sources */,
 				A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */,
 			);
