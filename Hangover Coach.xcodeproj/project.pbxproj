@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033ED8DA1AEE46A30020AC84 /* SymptomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033ED8D91AEE46A30020AC84 /* SymptomTableViewCell.swift */; };
+		033ED8DC1AEE46CD0020AC84 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033ED8DB1AEE46CD0020AC84 /* SymptomsViewController.swift */; };
 		A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AAC1AEE286200360D60 /* AppDelegate.swift */; };
 		A27C0AB21AEE286200360D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB01AEE286200360D60 /* Main.storyboard */; };
 		A27C0AB41AEE286200360D60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB31AEE286200360D60 /* Images.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033ED8D91AEE46A30020AC84 /* SymptomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomTableViewCell.swift; sourceTree = "<group>"; };
+		033ED8DB1AEE46CD0020AC84 /* SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
 		A27C0AA71AEE286200360D60 /* Hangover Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangover Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27C0AAB1AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27C0AAC1AEE286200360D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				A27C0AAC1AEE286200360D60 /* AppDelegate.swift */,
 				A27C0AB01AEE286200360D60 /* Main.storyboard */,
+				033ED8D91AEE46A30020AC84 /* SymptomTableViewCell.swift */,
+				033ED8DB1AEE46CD0020AC84 /* SymptomsViewController.swift */,
 				A27C0AB31AEE286200360D60 /* Images.xcassets */,
 				A27C0AB51AEE286200360D60 /* LaunchScreen.xib */,
 				A27C0ACC1AEE293F00360D60 /* Views */,
@@ -240,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27C0AD21AEE2C4600360D60 /* ScrollPager.swift in Sources */,
+				033ED8DA1AEE46A30020AC84 /* SymptomTableViewCell.swift in Sources */,
 				A27C0ACE1AEE295D00360D60 /* SymptomsViewController.swift in Sources */,
+				033ED8DC1AEE46CD0020AC84 /* SymptomsViewController.swift in Sources */,
 				A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
