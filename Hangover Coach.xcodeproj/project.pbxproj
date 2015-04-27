@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AAC1AEE286200360D60 /* AppDelegate.swift */; };
+		A27C0AAF1AEE286200360D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AAE1AEE286200360D60 /* ViewController.swift */; };
+		A27C0AB21AEE286200360D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB01AEE286200360D60 /* Main.storyboard */; };
+		A27C0AB41AEE286200360D60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB31AEE286200360D60 /* Images.xcassets */; };
+		A27C0AB71AEE286200360D60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27C0AB51AEE286200360D60 /* LaunchScreen.xib */; };
+		A27C0AC31AEE286200360D60 /* Hangover_CoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27C0ABD1AEE286200360D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27C0A9F1AEE286200360D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27C0AA61AEE286200360D60;
+			remoteInfo = "Hangover Coach";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A27C0AA71AEE286200360D60 /* Hangover Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangover Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27C0AAB1AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27C0AAC1AEE286200360D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27C0AAE1AEE286200360D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27C0AB11AEE286200360D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27C0AB31AEE286200360D60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A27C0AB61AEE286200360D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A27C0ABC1AEE286200360D60 /* Hangover CoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangover CoachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27C0AC11AEE286200360D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangover_CoachTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27C0AA41AEE286200360D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27C0AB91AEE286200360D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27C0A9E1AEE286200360D60 = {
+			isa = PBXGroup;
+			children = (
+				A27C0AA91AEE286200360D60 /* Hangover Coach */,
+				A27C0ABF1AEE286200360D60 /* Hangover CoachTests */,
+				A27C0AA81AEE286200360D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27C0AA81AEE286200360D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AA71AEE286200360D60 /* Hangover Coach.app */,
+				A27C0ABC1AEE286200360D60 /* Hangover CoachTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27C0AA91AEE286200360D60 /* Hangover Coach */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AAC1AEE286200360D60 /* AppDelegate.swift */,
+				A27C0AAE1AEE286200360D60 /* ViewController.swift */,
+				A27C0AB01AEE286200360D60 /* Main.storyboard */,
+				A27C0AB31AEE286200360D60 /* Images.xcassets */,
+				A27C0AB51AEE286200360D60 /* LaunchScreen.xib */,
+				A27C0AAA1AEE286200360D60 /* Supporting Files */,
+			);
+			path = "Hangover Coach";
+			sourceTree = "<group>";
+		};
+		A27C0AAA1AEE286200360D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AAB1AEE286200360D60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27C0ABF1AEE286200360D60 /* Hangover CoachTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AC21AEE286200360D60 /* Hangover_CoachTests.swift */,
+				A27C0AC01AEE286200360D60 /* Supporting Files */,
+			);
+			path = "Hangover CoachTests";
+			sourceTree = "<group>";
+		};
+		A27C0AC01AEE286200360D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27C0AC11AEE286200360D60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27C0AA61AEE286200360D60 /* Hangover Coach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27C0AC61AEE286200360D60 /* Build configuration list for PBXNativeTarget "Hangover Coach" */;
+			buildPhases = (
+				A27C0AA31AEE286200360D60 /* Sources */,
+				A27C0AA41AEE286200360D60 /* Frameworks */,
+				A27C0AA51AEE286200360D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hangover Coach";
+			productName = "Hangover Coach";
+			productReference = A27C0AA71AEE286200360D60 /* Hangover Coach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27C0ABB1AEE286200360D60 /* Hangover CoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27C0AC91AEE286200360D60 /* Build configuration list for PBXNativeTarget "Hangover CoachTests" */;
+			buildPhases = (
+				A27C0AB81AEE286200360D60 /* Sources */,
+				A27C0AB91AEE286200360D60 /* Frameworks */,
+				A27C0ABA1AEE286200360D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27C0ABE1AEE286200360D60 /* PBXTargetDependency */,
+			);
+			name = "Hangover CoachTests";
+			productName = "Hangover CoachTests";
+			productReference = A27C0ABC1AEE286200360D60 /* Hangover CoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27C0A9F1AEE286200360D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Big Daddy Rossmann";
+				TargetAttributes = {
+					A27C0AA61AEE286200360D60 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A27C0ABB1AEE286200360D60 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A27C0AA61AEE286200360D60;
+					};
+				};
+			};
+			buildConfigurationList = A27C0AA21AEE286200360D60 /* Build configuration list for PBXProject "Hangover Coach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27C0A9E1AEE286200360D60;
+			productRefGroup = A27C0AA81AEE286200360D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27C0AA61AEE286200360D60 /* Hangover Coach */,
+				A27C0ABB1AEE286200360D60 /* Hangover CoachTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27C0AA51AEE286200360D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27C0AB21AEE286200360D60 /* Main.storyboard in Resources */,
+				A27C0AB71AEE286200360D60 /* LaunchScreen.xib in Resources */,
+				A27C0AB41AEE286200360D60 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27C0ABA1AEE286200360D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27C0AA31AEE286200360D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27C0AAF1AEE286200360D60 /* ViewController.swift in Sources */,
+				A27C0AAD1AEE286200360D60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27C0AB81AEE286200360D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27C0AC31AEE286200360D60 /* Hangover_CoachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27C0ABE1AEE286200360D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27C0AA61AEE286200360D60 /* Hangover Coach */;
+			targetProxy = A27C0ABD1AEE286200360D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27C0AB01AEE286200360D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27C0AB11AEE286200360D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27C0AB51AEE286200360D60 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27C0AB61AEE286200360D60 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27C0AC41AEE286200360D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27C0AC51AEE286200360D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27C0AC71AEE286200360D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hangover Coach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A27C0AC81AEE286200360D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hangover Coach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A27C0ACA1AEE286200360D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hangover CoachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangover Coach.app/Hangover Coach";
+			};
+			name = Debug;
+		};
+		A27C0ACB1AEE286200360D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hangover CoachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangover Coach.app/Hangover Coach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27C0AA21AEE286200360D60 /* Build configuration list for PBXProject "Hangover Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27C0AC41AEE286200360D60 /* Debug */,
+				A27C0AC51AEE286200360D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27C0AC61AEE286200360D60 /* Build configuration list for PBXNativeTarget "Hangover Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27C0AC71AEE286200360D60 /* Debug */,
+				A27C0AC81AEE286200360D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A27C0AC91AEE286200360D60 /* Build configuration list for PBXNativeTarget "Hangover CoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27C0ACA1AEE286200360D60 /* Debug */,
+				A27C0ACB1AEE286200360D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27C0A9F1AEE286200360D60 /* Project object */;
+}
