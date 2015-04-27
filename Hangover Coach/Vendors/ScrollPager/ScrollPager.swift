@@ -123,6 +123,21 @@ import UIKit
 		
 		redrawComponents()
 	}
+  
+  public func addSegmentsWithTitlesAndViews(segments: [(String, UITableView)]) {
+    addButtons(segments.map { $0.0 })
+    addViews(segments.map { $0.1 })
+    
+    redrawComponents()
+  }
+  
+  public func addSegmentsWithImagesAndViews(segments: [(title: String, view: UITableView)]) {
+    
+    addButtons(segments.map { $0.title })
+    addViews(segments.map { $0.view })
+    
+    redrawComponents()
+  }
 	
 	public func addSegmentsWithImagesAndViews(segments: [(image: UIImage, view: UIView)]) {
 		
