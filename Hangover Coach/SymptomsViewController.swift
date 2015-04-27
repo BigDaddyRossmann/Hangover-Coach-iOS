@@ -22,10 +22,6 @@ class SymptomsViewController: UIViewController, UITableViewDataSource, UITableVi
     symptomTableView!.dataSource = self
   }
   
-  @IBAction func askCoachTapped(sender: AnyObject) {
-    println("Ask The Coach... Cure hangover")
-  }
-  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
@@ -54,20 +50,6 @@ class SymptomsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     if (cell.accessoryType == UITableViewCellAccessoryType.Checkmark) {
       cell.accessoryType = UITableViewCellAccessoryType.None
-    } else {
-      cell.accessoryType = UITableViewCellAccessoryType.Checkmark
-      self.selectedCells.append(symptom!)
-    }
-    
-    tableView.deselectRowAtIndexPath(indexPath, animated: true)
-  }
-  
-  func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-    var cell: UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
-    var symptom = cell.textLabel?.text
-    
-    if (cell.accessoryType == UITableViewCellAccessoryType.Checkmark) {
-      cell.accessoryType = UITableViewCellAccessoryType.None
       for (index, value) in enumerate(selectedCells) {
         if selectedCells[index] == symptom {
           selectedCells.removeAtIndex(index)
@@ -76,7 +58,10 @@ class SymptomsViewController: UIViewController, UITableViewDataSource, UITableVi
       }
     } else {
       cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+      self.selectedCells.append(symptom!)
     }
+    
+    tableView.deselectRowAtIndexPath(indexPath, animated: true)
   }
   
   // MARK: - Navigation
