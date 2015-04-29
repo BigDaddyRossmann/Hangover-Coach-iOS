@@ -12,7 +12,7 @@ import UIKit
 class SymptomsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   @IBOutlet weak var symptomTableView: UITableView!
   
-  let symptoms: [String] = ["Headach", "Vomiting", "Nausea", "Muscle Pain", "Weakness", "Dizziness", "Light Sensitivity"]
+  let symptoms: [String] = ["Headache", "Vomiting", "Nausea", "Muscle Pain", "Weakness", "Dizziness", "Light Sensitivity"]
   var selectedCells = [String]()
   
   override func viewDidLoad() {
